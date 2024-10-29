@@ -1,0 +1,19 @@
+<!-- templates/booking_cancellation_success.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancellation Successful</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="alert alert-success text-center">
+            <h2>Booking Cancelled</h2>
+            <p>Your booking has been successfully cancelled.</p>
+            <a href="{% url 'destination_list' %}" class="btn btn-primary">Go Back to Destinations</a>
+        </div>
+    </div>
+</body>
+</html>
